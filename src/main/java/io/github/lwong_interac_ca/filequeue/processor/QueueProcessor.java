@@ -12,15 +12,17 @@
  * limitations under the License.
  */
 
-package com.stimulussoft.filequeue.processor;
+package io.github.lwong_interac_ca.filequeue.processor;
 
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.common.util.concurrent.MoreExecutors;
-import com.stimulussoft.filequeue.FileQueueItem;
-import com.stimulussoft.filequeue.store.MVStoreQueue;
-import com.stimulussoft.util.AdjustableSemaphore;
-import com.stimulussoft.util.ThreadUtil;
+
+import io.github.lwong_interac_ca.filequeue.FileQueueItem;
+import io.github.lwong_interac_ca.filequeue.store.MVStoreQueue;
+import io.github.lwong_interac_ca.util.AdjustableSemaphore;
+import io.github.lwong_interac_ca.util.ThreadUtil;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

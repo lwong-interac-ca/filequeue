@@ -1,4 +1,4 @@
-package com.stimulussoft.filequeue.processor;
+package io.github.lwong_interac_ca.filequeue.processor;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 

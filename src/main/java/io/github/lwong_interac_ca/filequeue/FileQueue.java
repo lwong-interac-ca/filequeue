@@ -12,14 +12,15 @@
  * limitations under the License.
  */
 
-package com.stimulussoft.filequeue;
+package io.github.lwong_interac_ca.filequeue;
 
 import com.google.common.annotations.VisibleForTesting;
 import com.google.common.base.Preconditions;
-import com.stimulussoft.filequeue.processor.Consumer;
-import com.stimulussoft.filequeue.processor.Expiration;
-import com.stimulussoft.filequeue.processor.QueueProcessor;
-import com.stimulussoft.filequeue.processor.QueueProcessorBuilder;
+
+import io.github.lwong_interac_ca.filequeue.processor.Consumer;
+import io.github.lwong_interac_ca.filequeue.processor.Expiration;
+import io.github.lwong_interac_ca.filequeue.processor.QueueProcessor;
+import io.github.lwong_interac_ca.filequeue.processor.QueueProcessorBuilder;
 
 import javax.annotation.Nonnull;
 import java.io.IOException;

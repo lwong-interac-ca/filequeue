@@ -15,13 +15,14 @@
  */
 
 
-package com.stimulussoft.filequeue;
+package io.github.lwong_interac_ca.filequeue;
 
-import com.stimulussoft.filequeue.store.MVStoreQueue;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
+
+import io.github.lwong_interac_ca.filequeue.store.MVStoreQueue;
 import rules.JimfsFilesystemRule;
 
 import java.io.IOException;

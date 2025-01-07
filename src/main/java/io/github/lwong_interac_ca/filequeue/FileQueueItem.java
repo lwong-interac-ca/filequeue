@@ -20,7 +20,7 @@
  *  Use basic fields that can be serialized using Jackson JSON.
  */
 
-package com.stimulussoft.filequeue;
+package io.github.lwong_interac_ca.filequeue;
 
 import com.google.common.base.Preconditions;
 

@@ -1,12 +1,16 @@
-package com.stimulussoft.filequeue;
+package io.github.lwong_interac_ca.filequeue;
 
 import com.google.common.collect.Maps;
 import com.google.common.io.MoreFiles;
 import com.google.common.io.RecursiveDeleteOption;
-import com.stimulussoft.filequeue.processor.Consumer;
-import com.stimulussoft.filequeue.processor.DelayRejectPolicy;
-import com.stimulussoft.filequeue.processor.Expiration;
-import com.stimulussoft.util.ThreadUtil;
+
+import io.github.lwong_interac_ca.filequeue.FileQueue;
+import io.github.lwong_interac_ca.filequeue.FileQueueItem;
+import io.github.lwong_interac_ca.filequeue.processor.Consumer;
+import io.github.lwong_interac_ca.filequeue.processor.DelayRejectPolicy;
+import io.github.lwong_interac_ca.filequeue.processor.Expiration;
+import io.github.lwong_interac_ca.util.ThreadUtil;
+
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

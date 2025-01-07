@@ -9,7 +9,7 @@
  * <p>
  * FileQueue is copyright Stimulus Software, implemented by Valentin Popov and Jamie Band.
  *
- * @see com.stimulussoft.filequeue
+ * @see io.github.lwong_interac_ca.filequeue
  * @since 1.0
  */
-package com.stimulussoft.filequeue;
+package io.github.lwong_interac_ca.filequeue;

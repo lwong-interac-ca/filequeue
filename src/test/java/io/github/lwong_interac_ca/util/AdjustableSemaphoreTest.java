@@ -1,7 +1,9 @@
-package com.stimulussoft.util;
+package io.github.lwong_interac_ca.util;
 
 import org.junit.Assert;
 import org.junit.Test;
+
+import io.github.lwong_interac_ca.util.AdjustableSemaphore;
 
 /**
  * Created by Valentin Popov valentin@archiva.ru on 04.04.2023.

@@ -13,7 +13,7 @@
  *
  */
 
-package com.stimulussoft.filequeue.store;
+package io.github.lwong_interac_ca.filequeue.store;
 
 
 import com.google.common.base.Preconditions;

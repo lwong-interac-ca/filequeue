@@ -1,4 +1,4 @@
-package com.stimulussoft.filequeue;
+package io.github.lwong_interac_ca.filequeue;
 
 /**
  * Implement this interface to receive notification when an item is just about to be queued. It may, for example, be

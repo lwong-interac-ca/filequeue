@@ -14,12 +14,14 @@
  * @author Valentin Popov
  */
 
-package com.stimulussoft.filequeue;
+package io.github.lwong_interac_ca.filequeue;
 
 import com.google.common.util.concurrent.ThreadFactoryBuilder;
-import com.stimulussoft.filequeue.processor.Consumer;
-import com.stimulussoft.filequeue.processor.QueueProcessor;
-import com.stimulussoft.filequeue.processor.QueueProcessorBuilder;
+
+import io.github.lwong_interac_ca.filequeue.processor.Consumer;
+import io.github.lwong_interac_ca.filequeue.processor.QueueProcessor;
+import io.github.lwong_interac_ca.filequeue.processor.QueueProcessorBuilder;
+
 import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;

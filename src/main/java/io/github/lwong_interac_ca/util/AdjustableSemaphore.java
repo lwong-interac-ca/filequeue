@@ -12,7 +12,7 @@
  * limitations under the License.
  */
 
-package com.stimulussoft.util;
+package io.github.lwong_interac_ca.util;
 
 import java.util.concurrent.Semaphore;
 
